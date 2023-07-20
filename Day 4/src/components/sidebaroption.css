@@ -1,0 +1,30 @@
+.Sidebaroption {
+  display: flex;
+  align-items: left;
+  cursor: pointer;
+  width: 40%;
+  text-align: left;
+}
+
+.Sidebaroption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter-color);
+  transition: color 100ms ease-in;
+}
+
+.Sidebaroption > .MuiSvgIcon-root {
+  padding: 15px;
+  font-size: 30px !important;
+}
+
+.Sidebaroption > h2 {
+  font-weight: 800;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.Sidebaroption--active {
+  color: var(--twitter-color);
+}

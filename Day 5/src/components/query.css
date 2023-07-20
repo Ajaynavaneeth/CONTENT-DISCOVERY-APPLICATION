@@ -1,0 +1,44 @@
+.query {
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--twitter-background);
+    padding-right: 10px;
+    scroll-behavior: initial;
+  }
+  
+  .query > form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .query_input {
+    padding: 20px;
+    display: flex;
+  }
+  
+  .query_input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border:none;
+    outline: none;
+  }
+  
+  .query_imageInput {
+    border: none;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .querybutton {
+    background-color: var(--twitter-color) !important;
+    border: none !important;
+    color: black !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    margin-top: 20px !important;
+    width: 80px;
+    margin-left: auto !important;
+    filter: opacity(0.8);
+  }
